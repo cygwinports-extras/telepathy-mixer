@@ -1,6 +1,0 @@
-category: Net
-requires: python python-dbus python-gobject2.0 python-telepathy
-sdesc: "Telepathy MXit connection manager"
-ldesc: "Telepathy-Mixer is a Telepathy connection manager for the MXit 
-protocol. This allows users to connect to the MXit service using clients 
-like Empathy on Linux."

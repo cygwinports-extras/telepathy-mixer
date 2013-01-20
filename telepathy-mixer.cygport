@@ -1,0 +1,15 @@
+inherit waf
+
+NAME="telepathy-mixer"
+VERSION=0.2.1
+RELEASE=1
+CATEGORY="Net"
+SUMMARY="Telepathy MXit connection manager"
+DESCRIPTION="Telepathy-Mixer is a Telepathy connection manager for the MXit
+protocol. This allows users to connect to the MXit service using clients like
+Empathy on Linux."
+HOMEPAGE="http://code.google.com/p/telepathy-mixer/"
+SRC_URI="http://telepathy-mixer.googlecode.com/files/${P}.tar.gz"
+
+WAF=./waf
+WAF_CONFIGURE_FLAGS="--libexecdir=/usr/lib/telepathy"

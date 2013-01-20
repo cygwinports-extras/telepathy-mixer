@@ -1,8 +1,0 @@
-inherit waf
-
-
-HOMEPAGE="http://code.google.com/p/telepathy-mixer/"
-SRC_URI="http://telepathy-mixer.googlecode.com/files/${P}.tar.gz"
-
-WAF=./waf
-WAF_CONFIGURE_FLAGS="--libexecdir=/usr/lib/telepathy"
